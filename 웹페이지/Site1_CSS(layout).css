@@ -30,11 +30,20 @@
 .headerclass .header-menu { text-align: right; }
 .headerclass .header-menu a { color: white; padding: 10px 0px 10px 13px; display: inline-block; }
 .headerclass .header-menu a:hover { color: #666; }
-.headerclass .header-tit {}
+.headerclass .header-tit { text-align: center; }
 .headerclass .header-tit h1 { text-align: center; background:pink; font-size:28px; padding: 5px 20px 6px 20px; margin-top:5px; 
     font-weight: normal; display: inline-block; color:gray; text-transform: uppercase;}
 .headerclass .header-tit a { display: inline-block; background: rosybrown; font-size: 18px; 
     color: white; padding: 5px 20px; margin-top: 5px; }
-.headerclass .header-icon {}
-
+.headerclass .header-icon { text-align: center }
+.headerclass .header-icon a {width: 60px; height: 60px; line-height: 60px; display:inline-block; 
+    background: url('icon.png'); margin: 10px 5px 2px 5px;}
+.headerclass .header-icon a.icon1 { background-position: 0 0; }
+.headerclass .header-icon a.icon2 { background-position: 0 -60px; }
+.headerclass .header-icon a.icon3 { background-position: 0 -120px; }
+.headerclass .header-icon a.icon4 { background-position: 0 -180px; }
+.headerclass .header-icon a.icon1:hover { background-position: -60px 0; }
+.headerclass .header-icon a.icon2:hover { background-position: -60px -60px; }
+.headerclass .header-icon a.icon3:hover { background-position: -60px -120px; }
+.headerclass .header-icon a.icon4:hover { background-position: -60px -180px; }
 
